@@ -2,7 +2,7 @@
 <div align="center">
 <a href="https://www.youtube.com/watch?v=KqgyScOlvV8"><img src="https://images6.alphacoders.com/102/1024472.png" alt="2258810" border="0" /></a>
 
-# **NEZUKO : MULTI DEVICE WHATSAPP BOT WITH COOL FEATURES**
+# **Elaina : MULTI DEVICE WHATSAPP BOT WITH COOL FEATURES**
 
 </p>
 <p align="center">
@@ -23,7 +23,7 @@
 ## 📚 Information 📚
 > A simple and easy-to-use WhatsApp bot project with cool Features based on Multi-Device Baileys and written in JavaScript.
 
-## 💖 NEZUKO 💖
+## 💖 Elaina 💖
 > This is a open source project by the TEAM ETERNITY. After forking If you change any codes and claim That's yours then Our Team will Take Action In that case so be careful and give Credit To The original Devloper of that Bot. if you Have any Questions Then Join Our support Group To Report Your Issues.
 
 [![WhatsApp Group](https://img.shields.io/badge/WhatsApp-25D366?style=for-the-badge&logo=whatsapp&logoColor=white)](https://chat.whatsapp.com/JCCZPbPUbM1536n62zSFZi)
@@ -64,9 +64,9 @@ To keep it on forever
 
 # ✨ Creator ✨
 
-<a href="https://github.com/pratyush4932"><img src="https://github.com/pratyush4932.png?size=100" width="100" height="100"></a>
+<a href="https://github.com/union-savage"><img src="https://github.com/union-savage.png?size=100" width="100" height="100"></a>
 
-[Pratyush](https://github.com/pratyush4932)
+[Pratyush](https://github.com/union-savage)
 | Creator |
 
 # Modifiers 
@@ -79,7 +79,7 @@ Modifier | Modifier |
 # Contributor 🤝🏻
 <a href="https://github.com/Toshi-san001"><img src="https://github.com/Toshi-san001.png?size=100" width="100" height="100"></a> | [![Arin](https://github.com/Arin1601.png?size=100)](https://github.com/Arin1601) 
 ---|---
-[Toshi_Sama](https://github.com/Toshi-san001)  | [Arin](https://github.com/Arin1601)
+[Lord-Savage](https://github.com/union-savage)  | [Arin](https://github.com/Arin1601)
 Useless Worker | Contributor |
 <a href="https://github.com/iamherok"><img src="https://github.com/iamherok.png?size=100" width="100" height="100"></a> | [![Alι_Aryαɴ](https://github.com/AliAryanTech.png?size=100)](https://github.com/AliAryanTech) 
 [Tomioka](https://github.com/iamherok)  | [Alι_Aryαɴ](https://github.com/AliAryanTech)

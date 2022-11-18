@@ -3,7 +3,7 @@ module.exports={
     name:"eval",
     alias:["evaluate"],
     usage:`${prefa}eval <codes>`,
-    react:"✅",
+    react:"🕊️",
     desc:"evaluates js codes",
     category:"Mods",
     start:async(client,m,{text,ban,pushName,mentionByTag,iscreator,args,body,quoted,mime})=>{

@@ -3,7 +3,7 @@ module.exports = {
     alias: ["h","menu"],
     desc: "List all command",
     category: "General",
-    react:"✅",
+    react:"❤️",
     start: async(client, m, { commands, args, prefix, text, toUpper }) => {
         
        
@@ -22,7 +22,7 @@ module.exports = {
 				{buttonId: `${prefix}help`, buttonText: {displayText: `help`}, type: 1},]
             let buth={
                 text:`*ℹ️Command Info*\n\n${data.join("\n")}`,
-                footer:"*©Eternity-Team*",
+                footer:"*©Elaina-Savage*",
                 buttons:buttonss,
                 headerType:1
             }    
@@ -45,7 +45,7 @@ let cm=commands.keys()
             }
             const emo=["🍁","🍀","🌊","🎵","🔞","🎟","♨️","🉐",]
         
-            let txt = `*Kon'nichiwa (｡♡‿♡｡)* ${pushName} Watashiwa *Nezuko Bot*.
+            let txt = `*Kon'nichiwa (｡♡‿♡｡)* ${pushName} Watashiwa *Elaina Bot*.
                        
 🧧 *Prefix :* [ ${prefix} ]
                        

@@ -3,7 +3,7 @@ module.exports = {
     alias: ["hello"],
     desc: "Tells hello",
     cool:3,
-    react:"✅",
+    react:"🛡️",
     category: "General",
     start: async(client, m,{pushName}) => {
         if(m.quoted){

@@ -9,7 +9,7 @@ module.exports={
     alias:["p"],
     usage:`${prefa}profile`,
     desc:"shows your profile",
-    react:"✅",
+    react:"🥲",
     category:"General",
     start:async(client,m,{command,pushName,groupName,isAdmin,own,mentionByTag,prefix,text,args,quoted,mime})=>{
         
@@ -83,9 +83,9 @@ let typeR = await db.get(`${m.sender}ooicon-y`) || "img"
 let disec = m.sender.substring(3, 7)
 			let tex = "";
             if (pushName) {
-             tex += `*🪪 Name*: ${pushName}#${disec}\n\n`
-			 tex += `*🍥 Number*: ${m.sender}\n\n`
-			tex += `*🎌 Bio*: ${yuo}\n\n`
+             tex += `*🎀 Name*: ${pushName}#${disec}\n\n`
+			 tex += `*🛡️ Number*: ${m.sender}\n\n`
+			tex += `*📖 Bio*: ${yuo}\n\n`
 			}
 
 			tex += `*🎯 XP*: ${userw.xp} / ${Levels.xpFor(userw.level + 1)}\n\n*🔮 Level*: ${userw.level}\n\n*🏮 Role*: ${role}\n`
@@ -96,15 +96,15 @@ let disec = m.sender.substring(3, 7)
 			try {
                     ppuser = await client.profilePictureUrl(m.sender, 'image')
                 } catch {
-                    ppuser = 'https://i.pinimg.com/564x/84/09/12/840912dd744e6662ab211b8070b5d84c.jpg'
+                    ppuser = 'https://telegra.ph/file/de72ea1903c646b4d4935.jpg'
                 }
 			}
 				
 				if (groupName) {
-					tex += `\n*🌊 Group*: ${groupName}\n\n`
+					tex += `\n*📖 Group*: ${groupName}\n\n`
 				}
 				if (isAdmin) {
-					tex += `*〽️ Admin*: true\n`
+					tex += `*🎀 Admin*: true\n`
 				}
 				console.log(`${tex} ${yui} ${bio}`)
 
@@ -196,8 +196,8 @@ let disec = users.substring(3, 7)
 			let tex = "";
             if (unme) {
              tex += `*🪪 Name*: ${unme}#${disec}\n\n`
-			 tex += `*🍥 Number*: ${users}\n\n`
-			tex += `*🎌 Bio*: ${yuo}\n\n`
+			 tex += `*🎀 Number*: ${users}\n\n`
+			tex += `*📖 Bio*: ${yuo}\n\n`
 			}
 
 			tex += `*🎯 XP*: ${userw.xp} / ${Levels.xpFor(userw.level + 1)}\n\n*🔮 Level*: ${userw.level}\n\n*🏮 Role*: ${role}\n`
@@ -209,15 +209,15 @@ let disec = users.substring(3, 7)
 			try {
                     ppuser = await client.profilePictureUrl(users, 'image')
                 } catch {
-                    ppuser = 'https://i.pinimg.com/564x/84/09/12/840912dd744e6662ab211b8070b5d84c.jpg'
+                    ppuser = 'https://telegra.ph/file/de72ea1903c646b4d4935.jpg'
                 }
 			}
 				
 				if (groupName) {
-					tex += `\n*🌊 Group*: ${groupName}\n\n`
+					tex += `\n*🎀 Group*: ${groupName}\n\n`
 				}
 				if (isAdmin) {
-					tex += `*〽️ Admin*: true\n`
+					tex += `*🛡️ Admin*: true\n`
 				}
 				console.log(`${tex} ${yui} ${bio}`)
 

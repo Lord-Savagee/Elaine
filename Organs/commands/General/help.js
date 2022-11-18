@@ -43,7 +43,7 @@ let cm=commands.keys()
                     category[info.category].push(info);
                 }
             }
-            const emo=["🍁","🍀","🌊","🎵","🔞","🎟","♨️","🉐",]
+            const emo=["❤️","🦋","🎊","🌺","🎀","🧧","🔮","💛",]
         
             let txt = `*Kon'nichiwa (｡♡‿♡｡)* ${pushName} Watashiwa *Elaina Bot*.
                        
@@ -57,7 +57,7 @@ let cm=commands.keys()
         }
         txt += `📗 *Type ${prefix}help <Command-Name> or <Command-Name> --info*\n\n`; 
         txt += `*©Elaina*`
-    const eternitylogo = 'https://cdn.discordapp.com/attachments/1030916817285296231/1033792220370833509/y2mate.com_-_Nezuko_Edit_floating_480p.mp4'
+    const eternitylogo = 'https://telegra.ph/file/3988c78f1a8a83fe786e0.mp4'
     client.sendMessage(m.from,{video:{url:eternitylogo}, gifPlayback:true, caption:txt},{quoted:m})
         //client.sendMessage(m.from,{text:txt},{quoted:m})
 

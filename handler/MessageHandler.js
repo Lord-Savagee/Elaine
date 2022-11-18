@@ -106,15 +106,15 @@ if(text.endsWith("--info")){
         {buttonId: `${prefix}help`, buttonText: {displayText: `help`}, type: 1},]
     let buth={
         text:`*Command Info*\n\n${data.join("\n")}`,
-        footer:"Eternity",
+        footer:"Elaina",
         buttons:buttonss,
         headerType:1
     }    
     return client.sendMessage(m.from,buth,{quoted:m})
 }
-if(!isGroup&& cmd && !own.includes(m.sender)) return m.reply("*You cant use commands in dm*")
+if(!isGroup&& cmd && !own.includes(m.sender)) return m.reply("*Commands cannot be used in direct messages send a message without a prefix to have a chat*")
 if (cmd) {
-    if(ban.includes(`${m.sender}`)) return m.reply(`You are banned from using commands ❌`)
+    if(ban.includes(`${m.sender}`)) return m.reply(`Baka!You are banned from using commands ❌`)
   }
   if(cmd.react){
     const reactm={

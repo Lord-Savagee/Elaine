@@ -56,7 +56,7 @@ let cm=commands.keys()
                 .map((cmd) => cmd.name).join(" | ")}\`\`\`\n\n`
         }
         txt += `📗 *Type ${prefix}help <Command-Name> or <Command-Name> --info*\n\n`; 
-        txt += `*©Eternity-Team*`
+        txt += `*©Elaina*`
     const eternitylogo = 'https://cdn.discordapp.com/attachments/1030916817285296231/1033792220370833509/y2mate.com_-_Nezuko_Edit_floating_480p.mp4'
     client.sendMessage(m.from,{video:{url:eternitylogo}, gifPlayback:true, caption:txt},{quoted:m})
         //client.sendMessage(m.from,{text:txt},{quoted:m})

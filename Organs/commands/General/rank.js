@@ -6,7 +6,7 @@ module.exports={
     alias: ["rank"],
     desc: "shows the rank",
     cool:3,
-    react:"✅",
+    react:"😭",
     category: "General",
     start: async(client, m,{text,pushName,sender}) => {
         const userq = await Levels.fetch(m.sender, "bot");
@@ -107,7 +107,7 @@ if (levelRole <= 2) {
 			try {
                     ppuser = await client.profilePictureUrl(m.sender, 'image')
                 } catch {
-                    pppuser = 'https://www.linkpicture.com/q/IMG-20220118-WA0387.png'
+                    pppuser = 'https://telegra.ph/file/de72ea1903c646b4d4935.jpg'
                     ppuser=await fetchBuffer(pppuser)
 
                 }

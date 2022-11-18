@@ -66,7 +66,7 @@ To keep it on forever
 
 <a href="https://github.com/union-savage"><img src="https://github.com/union-savage.png?size=100" width="100" height="100"></a>
 
-[Pratyush](https://github.com/union-savage)
+[Savage](https://github.com/union-savage)
 | Creator |
 
 # Modifiers 

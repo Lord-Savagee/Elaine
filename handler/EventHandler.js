@@ -11,7 +11,7 @@ module.exports = async (client, m) => {
 			try {
 				ppuser = await client.profilePictureUrl(num, 'image')
 			} catch {
-				ppuser = 'https://wallpapercave.com/wp/wp6960556.jpg'
+				ppuser = 'https://telegra.ph/file/b859fd360cd90f7e843d4.jpg'
 			}
 
 
@@ -19,15 +19,15 @@ module.exports = async (client, m) => {
 				//let name = client.username(num, 'user')
 		//let disc = num.substring(3, 7)
 	capt=`
-*@${num.split("@")[0]}* *Welcome to* ${metadata.subject} 🍁
+*@${num.split("@")[0]}* *Welcome to* ${metadata.subject} 📖
        
-🎋 *Group Description:*
+🎀 *Group Description:*
         
 ${metadata.desc}`
 
 				client.sendMessage(m.id, { image:{url:ppuser} , mentions:[num], caption:capt})
 			} else if (m.action == 'remove' &&wlc.includes(`${m.id}`)) {
-				client.sendMessage(m.id, { text:`@${num.split("@")[0]} bye bye , we will not miss you`, mentions:[num], })
+				client.sendMessage(m.id, { text:`@${num.split("@")[0]} bye bye , please don't come back here again`, mentions:[num], })
 			}
 		}
 	} catch (err) {
